@@ -1,0 +1,56 @@
+{
+    "historical_scenarios": [
+        {
+            "Scenario": "COVID-19 Market Crash",
+            "Period": "2020-02-19 to 2020-03-23",
+            "Portfolio Return": -0.3034631307271634,
+            "Max Drawdown": -0.3034631307271634,
+            "Worst Asset": "NVDA",
+            "Worst Asset Return": -0.34581155779827494
+        },
+        {
+            "Scenario": "2022 Fed Rate Hikes",
+            "Period": "2022-01-01 to 2022-10-12",
+            "Portfolio Return": -0.3987520452660615,
+            "Max Drawdown": -0.40145666819677006,
+            "Worst Asset": "AMD",
+            "Worst Asset Return": -0.6164137449346845
+        },
+        {
+            "Scenario": "2018 Volmageddon",
+            "Period": "2018-02-01 to 2018-02-09",
+            "Portfolio Return": -0.1136227855943073,
+            "Max Drawdown": -0.11362278559430729,
+            "Worst Asset": "AMD",
+            "Worst Asset Return": -0.15320752701669368
+        }
+    ],
+    "hypothetical_scenarios": [
+        {
+            "Scenario": "30% Tech Sector Decline",
+            "Shocked Factors": "XLK",
+            "Portfolio Impact": -0.38797382330362556
+        },
+        {
+            "Scenario": "15% Bond Price Drop (Rate Spike)",
+            "Shocked Factors": "TLT",
+            "Portfolio Impact": 2.5562193187644078e-05
+        },
+        {
+            "Scenario": "20% Broad Market Decline",
+            "Shocked Factors": "SPY",
+            "Portfolio Impact": -0.2943916747695119
+        },
+        {
+            "Scenario": "150% VIX Increase",
+            "Shocked Factors": "^VIX",
+            "Portfolio Impact": 0.003071294558964291
+        }
+    ],
+    "stressed_var": {
+        "normal_var": 0.04890607088398805,
+        "stressed_var": 0.08790204727399037,
+        "normal_vol": 0.018892713393140442,
+        "stressed_vol": 0.037785426786280885
+    }
+}

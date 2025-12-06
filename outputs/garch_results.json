@@ -1,0 +1,19 @@
+{
+    "model_params": {
+        "omega": 0.010706610242427141,
+        "alpha": 0.02030003528887006,
+        "beta": 0.9749471816774457,
+        "persistence": 0.9952472169663157
+    },
+    "derived_metrics": {
+        "long_run_volatility_pct": 1.5009008448005776,
+        "half_life_days": 145.49342536373334
+    },
+    "var_99_pct": -3.03344956038634,
+    "forecasted_vol_pct": 1.35608015172246,
+    "comparison": {
+        "garch_violations": 16,
+        "const_violations": 13,
+        "total_days": 732
+    }
+}

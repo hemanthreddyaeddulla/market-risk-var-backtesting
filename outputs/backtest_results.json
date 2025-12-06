@@ -1,0 +1,107 @@
+{
+    "static": {
+        "Parametric": {
+            "violations": 6,
+            "total_days": 249,
+            "violation_rate": 0.024096385542168676,
+            "expected_rate": 0.010000000000000009,
+            "zone": "Yellow",
+            "color": "yellow",
+            "multiplier_increase": 0.5
+        },
+        "Historical": {
+            "violations": 2,
+            "total_days": 249,
+            "violation_rate": 0.008032128514056224,
+            "expected_rate": 0.010000000000000009,
+            "zone": "Green",
+            "color": "green",
+            "multiplier_increase": 0.0
+        },
+        "Monte Carlo": {
+            "violations": 6,
+            "total_days": 249,
+            "violation_rate": 0.024096385542168676,
+            "expected_rate": 0.010000000000000009,
+            "zone": "Yellow",
+            "color": "yellow",
+            "multiplier_increase": 0.5
+        }
+    },
+    "kupiec": {
+        "Parametric": {
+            "violations": 6,
+            "total_days": 249,
+            "expected_rate": 0.010000000000000009,
+            "observed_rate": 0.024096385542168676,
+            "lr_statistic": 3.5839381114776256,
+            "p_value": 0.058340691833682734,
+            "critical_value": 3.841458820694124,
+            "reject_H0": "False",
+            "conclusion": "Model Accepted"
+        },
+        "Historical": {
+            "violations": 2,
+            "total_days": 249,
+            "expected_rate": 0.010000000000000009,
+            "observed_rate": 0.008032128514056224,
+            "lr_statistic": 0.10443123261820685,
+            "p_value": 0.7465754233039801,
+            "critical_value": 3.841458820694124,
+            "reject_H0": "False",
+            "conclusion": "Model Accepted"
+        },
+        "Monte Carlo": {
+            "violations": 6,
+            "total_days": 249,
+            "expected_rate": 0.010000000000000009,
+            "observed_rate": 0.024096385542168676,
+            "lr_statistic": 3.5839381114776256,
+            "p_value": 0.058340691833682734,
+            "critical_value": 3.841458820694124,
+            "reject_H0": "False",
+            "conclusion": "Model Accepted"
+        }
+    },
+    "christoffersen": {
+        "Parametric": {
+            "n00": 235,
+            "n01": 6,
+            "n10": 6,
+            "n11": 1,
+            "pi01": 0.024896265560165973,
+            "pi11": 0.14285714285714285,
+            "lr_statistic": 1.838348948518979,
+            "p_value": 0.1751445839110275,
+            "critical_value": 3.841458820694124,
+            "reject_H0": "False",
+            "independent": "True"
+        },
+        "Historical": {
+            "n00": 241,
+            "n01": 3,
+            "n10": 3,
+            "n11": 1,
+            "pi01": 0.012295081967213115,
+            "pi11": 0.25,
+            "lr_statistic": 4.099229840260922,
+            "p_value": 0.04290275239007646,
+            "critical_value": 3.841458820694124,
+            "reject_H0": "True",
+            "independent": "False"
+        },
+        "Monte Carlo": {
+            "n00": 235,
+            "n01": 6,
+            "n10": 6,
+            "n11": 1,
+            "pi01": 0.024896265560165973,
+            "pi11": 0.14285714285714285,
+            "lr_statistic": 1.838348948518979,
+            "p_value": 0.1751445839110275,
+            "critical_value": 3.841458820694124,
+            "reject_H0": "False",
+            "independent": "True"
+        }
+    }
+}

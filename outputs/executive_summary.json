@@ -1,0 +1,45 @@
+{
+    "portfolio": {
+        "tickers": [
+            "AAPL",
+            "MSFT",
+            "NVDA",
+            "GOOG",
+            "AMD"
+        ],
+        "weights": [
+            0.3,
+            0.25,
+            0.2,
+            0.15,
+            0.1
+        ],
+        "names": [
+            "Apple Inc.",
+            "Microsoft Corp.",
+            "NVIDIA Corp.",
+            "Alphabet Inc.",
+            "AMD Inc."
+        ]
+    },
+    "analysis_period": {
+        "start": "2022-01-01",
+        "end": "2025-12-03",
+        "train_start": "2022-01-01",
+        "train_end": "2024-11-29",
+        "test_start": "2024-12-02",
+        "test_end": "2025-11-28"
+    },
+    "risk_metrics": {
+        "var_99_1d": -0.04890607088398805,
+        "var_99_10d": -0.15465457540304664,
+        "es_975": -0.04917972595281746
+    },
+    "methods_compared": [
+        "Parametric",
+        "Historical",
+        "Monte Carlo",
+        "Factor-Based",
+        "GARCH"
+    ]
+}
