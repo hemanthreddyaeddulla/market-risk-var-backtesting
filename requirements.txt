@@ -1,0 +1,29 @@
+# Market Risk VaR Analysis - Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core Data & Numerical
+numpy>=1.21.0
+pandas>=1.3.0
+
+# Data Source
+yfinance>=0.2.0
+
+# Statistical Analysis
+scipy>=1.7.0
+statsmodels>=0.13.0
+
+# GARCH Volatility Modeling
+arch>=5.0.0
+
+# Visualization
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Jupyter Notebooks
+jupyter>=1.0.0
+notebook>=6.4.0
+ipykernel>=6.0.0
+
+# Display & Formatting
+tabulate>=0.8.0
+IPython>=7.0.0

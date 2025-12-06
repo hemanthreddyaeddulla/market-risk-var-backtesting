@@ -1,0 +1,57 @@
+{
+    "portfolio": {
+        "tickers": ["AAPL", "MSFT", "NVDA", "GOOG", "AMD"],
+        "weights": [0.30, 0.25, 0.20, 0.15, 0.10],
+        "names": ["Apple Inc.", "Microsoft Corp.", "NVIDIA Corp.", "Alphabet Inc.", "AMD Inc."]
+    },
+    "dates": {
+        "start": "2022-01-01",
+        "end": "2025-12-03",
+        "train_start": "2022-01-01",
+        "train_end": "2024-11-29",
+        "test_start": "2024-12-02",
+        "test_end": "2025-11-28"
+    },
+    "var_params": {
+        "confidence_var": 0.99,
+        "confidence_es": 0.975,
+        "simulations": 10000,
+        "rolling_window": 250,
+        "holding_period_days": [1, 10]
+    },
+    "risk_factors": {
+        "tickers": ["SPY", "XLK", "TLT", "MTUM", "^VIX", "VLUE", "IWF"],
+        "names": {
+            "SPY": "S&P 500 (Market)",
+            "XLK": "Technology Sector",
+            "TLT": "Long-Term Treasury (Interest Rate)",
+            "MTUM": "Momentum Factor",
+            "^VIX": "Volatility Index",
+            "VLUE": "Value Factor",
+            "IWF": "Growth Factor"
+        }
+    },
+    "stress_scenarios": {
+        "covid_crash": {
+            "name": "COVID-19 Market Crash",
+            "start": "2020-02-19",
+            "end": "2020-03-23"
+        },
+        "rate_hikes_2022": {
+            "name": "2022 Fed Rate Hikes",
+            "start": "2022-01-01",
+            "end": "2022-10-12"
+        },
+        "volmageddon": {
+            "name": "2018 Volmageddon",
+            "start": "2018-02-01",
+            "end": "2018-02-09"
+        }
+    },
+    "hypothetical_shocks": {
+        "tech_crash": {"XLK": -0.30, "description": "30% Tech Sector Decline"},
+        "rate_shock": {"TLT": -0.15, "description": "15% Bond Price Drop (Rate Spike)"},
+        "market_crash": {"SPY": -0.20, "description": "20% Broad Market Decline"},
+        "vix_spike": {"^VIX": 1.50, "description": "150% VIX Increase"}
+    }
+}
