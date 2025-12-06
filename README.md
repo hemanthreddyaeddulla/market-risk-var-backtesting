@@ -610,6 +610,7 @@ MIT License - See LICENSE file for details.
 
 ## Author
 
-**Hemanth Kumar**
+**Hemanth Reddy**
+Email: aeddullahemanthreddy1@gmail.com
 
 *Market Risk Analysis Project - December 2025*
